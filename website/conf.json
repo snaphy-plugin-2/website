@@ -1,0 +1,7 @@
+{
+  "name": "website",
+  "description": "contains logic and views for techtailor website",
+  "routeExposure": "/testPlugin",
+  "activate": true,
+  "pluginDependencies": {}
+}

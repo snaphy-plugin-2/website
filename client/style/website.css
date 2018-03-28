@@ -1,0 +1,133 @@
+/*This is a sample css page*/
+.product-name-size {
+    font-size: 0rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 5rem;
+}
+.product-image-size {
+    width: auto;
+    height: 520px;
+}
+
+@font-face {
+    font-family: medium;
+    src: url(../fonts/Montserrat-Medium.otf);
+}
+
+@font-face {
+    font-family: regular;
+    src: url(../fonts/Montserrat-Regular.otf);
+}
+
+@font-face {
+    font-family: light;
+    src: url(../fonts/Montserrat-Light.otf);
+}
+
+@font-face {
+    font-family: bold;
+    src: url(../fonts/Montserrat-ExtraBold.otf);
+}
+
+.offerText {
+    width: 42px;
+      height: 15px;
+      font-family: medium;
+      font-size: 12px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #f57636;
+    margin-left: 70px;
+}
+
+.offerSubheading {
+    width: 262px;
+    height: 15px;
+    font-family: medium;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 50px;
+}
+
+.accountSection {
+    height: 78px;
+      background-color: #ededed;
+    width: auto;
+}
+
+.logo {
+    width: 95px;
+    height: 164px;
+    background-color: #37495e;
+    margin-left: 70px;
+}
+
+.accountSectionMenu {
+    background-color: #ededed;
+    margin-left: 30px;
+    font-weight: bolder;
+    color: #000;
+    font-family: bold;
+    font-size: 12px;
+}
+
+.callText {
+    opacity: 0.4;
+    font-family: medium;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-right: 5px;
+}
+
+.callNumber {
+    font-family: medium;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-right: 50px;
+}
+
+.accountSectionParentMenu {
+    margin-top: -130px;
+    margin-left: 190px;
+}
+
+footer {
+    position: absolute;
+    top:739px;
+    height: 100px;
+    background-color: #37495e;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+.footerText {
+    padding-top: 50px;
+    text-align: center;
+    color: #FFF;
+    font-family: medium;
+    opacity: 0.5;
+}

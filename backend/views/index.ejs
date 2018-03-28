@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Tech-Tailor">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/ico" href="/website/images/favicon.ico"/>
+        <title>Tech-Tailor | Garment Delivery at your doorstep</title>
+        <!-- All Styles -->
+        <% include partials/allStyles %>
+    </head>
+    <body>
+        <!-- HEADER -->
+        <div><% include partials/header %></div>
+        
+        
+        <!-- Home -->
+        <div><%- include(page.path) %></div>
+
+
+        <!-- FOOTER  -->
+        <div><% include partials/footer %></div>
+
+        <!-- Vendor Scripts -->
+        <% include partials/vendorScripts %>
+        <!-- Add custom scripts as needed like  controllers, directives, services -->
+        <!-- <script src="/website/controller/abc.js" ></script> -->
+        <!-- <script src="/website/services/abc.js" ></script> -->
+        <!-- <script src="/website/directives/abc.js" ></script> -->
+    </body>
+</html>
