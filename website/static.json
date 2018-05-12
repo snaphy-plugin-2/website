@@ -1,15 +1,12 @@
 {
   "css": {
-    "/testPlugin/style/website.css": "websiteCss"
   },
   "js": {
-    "/testPlugin/scripts/routes/website.js": "websiteRoute",
-    "/testPlugin/scripts/controllers/website.js": "websiteController"
   },
   "moduleDependencies":{
 
   },
-  "settings": ["/testPlugin/admin-panel-setting.js"],
+  "settings": [],
   "bodystructure": {
     "asidebarHook": [],
     "sidebarHook": [],

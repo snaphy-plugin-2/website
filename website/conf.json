@@ -1,7 +1,14 @@
 {
   "name": "website",
   "description": "contains logic and views for techtailor website",
-  "routeExposure": "/testPlugin",
+  "routeExposure": "/website",
   "activate": true,
-  "pluginDependencies": {}
+  "pluginDependencies": {},
+  "pageAccess":{
+    "pages/home":{
+      "$authorised": true,
+      "$unauthorised": true,
+      "redirect": ""
+    }
+  }
 }

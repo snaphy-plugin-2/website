@@ -2,30 +2,35 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="description" content="Tech-Tailor">
+        <meta name="description" content="Demo">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/ico" href="/website/images/favicon.ico"/>
-        <title>Tech-Tailor | Garment Delivery at your doorstep</title>
+        <title>Demo</title>
         <!-- All Styles -->
         <% include partials/allStyles %>
     </head>
-    <body>
-        <!-- HEADER -->
-        <div><% include partials/header %></div>
-        
-        
-        <!-- Home -->
-        <div><%- include(page.path) %></div>
+    <body ng-app="website" class="ng-cloak" ng-cloak>
+        <div ng-controller="RootCtrl">
+            <!-- HEADER -->
+            <div><% include partials/header %></div>
+
+            
+            <!-- Home -->
+            <div><%- include(page.path) %></div>
 
 
-        <!-- FOOTER  -->
-        <div><% include partials/footer %></div>
+            <!-- FOOTER  -->
+            <div><% include partials/footer %></div>
+        </div>
+        
 
         <!-- Vendor Scripts -->
         <% include partials/vendorScripts %>
+
+        <script src="/website/scripts/app.js" ></script>
         <!-- Add custom scripts as needed like  controllers, directives, services -->
-        <!-- <script src="/website/controller/abc.js" ></script> -->
-        <!-- <script src="/website/services/abc.js" ></script> -->
+        <script src="/website/scripts/controllers/RootCtrl.js" ></script>
+        <script src="/website/scripts/services/RootService.js" ></script>
         <!-- <script src="/website/directives/abc.js" ></script> -->
     </body>
 </html>
